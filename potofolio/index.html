@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar | Creative Developer Portfolio</title>
+    <meta name="description" content="Showcasing my work in web development, AI apps, and software engineering.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Ionicons for Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">Portfol<span style="color:white">io.</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-container fade-in">
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Amit Kumar Profile">
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm Amit Kumar</h1>
+                <p class="subtitle">Full-stack developer specializing in modern web apps and AI integration.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container fade-in">
+            <div class="about-text">
+                <p>
+                    I am a second-year AI/ML student and Full Stack Developer with a strong interest in software
+                    development.
+                    I have built innovative projects like an <strong>AI Text Detector</strong> and recently completed a
+                    <strong>Micro-Internship with TATA Group</strong>, where I gained valuable industry experience.
+                </p>
+                <p style="margin-top: 1rem;">
+                    I thrive in collaborative environments and have strong communication skills that help me excel in
+                    team-based projects.
+                    My technical journey is backed by industry-recognized certifications:
+                </p>
+                <div class="cert-tags">
+                    <span class="tag">TATA (Internship)</span>
+                    <span class="tag">Oracle</span>
+                    <span class="tag">Google Cloud</span>
+                    <span class="tag">Microsoft</span>
+                    <span class="tag">Databricks</span>
+                    <span class="tag">IBM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card fade-in">
+                <div class="project-img">
+                    <!-- Replace with your hosted image URL -->
+                    <img src="https://cdn.trendhunterstatic.com/thumbs/553/ai-meal-scan.jpeg" alt="MacroScan AI App">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">MacroScan AI App</h3>
+                    <p class="project-desc">
+                        A Flutter-based mobile app using Gemini AI API to analyze food photos and provide nutritional
+                        insights.
+                    </p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in" style="animation-delay: 0.2s;">
+                <div class="project-img">
+                    <!-- Replace with your hosted image URL -->
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNuXJDp96hm28NUIenMlCWuHBuuSniCJOzBA&s">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Local Business Website</h3>
+                    <p class="project-desc">
+                        A responsive, high-converting website designed for local businesses to improve their online
+                        presence.
+                    </p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card fade-in" style="animation-delay: 0.4s;">
+                <div class="project-img">
+                    <!-- Replace with your hosted image URL -->
+                    <img
+                        src="data:image/png;base64,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">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI Spam Detector</h3>
+                    <p class="project-desc">
+                        A web application that creates an AI-powered spam detector to filter unwanted messages
+                        effectively.
+                    </p>
+                    <a href="#" class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">View Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-container fade-in">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="Let's build something together..."></textarea>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Amit Kumar. Built with HTML, CSS & JS.</p>
+        <div style="margin-top: 1rem; font-size: 1.5rem;">
+            <a href="#" style="color: #64748b; margin: 0 10px;"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="#" style="color: #64748b; margin: 0 10px;"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#" style="color: #64748b; margin: 0 10px;"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
